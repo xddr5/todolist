@@ -1,0 +1,50 @@
+.tasks__item {
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: .5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  gap: 1rem;
+}
+
+.tasks-area__title.title__backlog {
+  border-left: 10px solid rgb(245, 0, 0);
+  border-radius: 7px;
+}
+
+.tasks__backlog .tasks__item {
+  border-left: 10px solid rgb(245, 0, 0);
+  border-radius: 7px;
+}
+
+.tasks-area__title.title__inprogress {
+  border-left: 10px solid rgb(0, 0, 245);
+  border-radius: 7px;
+}
+
+.tasks__inprogress .tasks__item {
+  border-left: 10px solid rgb(0, 0, 245);
+  border-radius: 7px;
+}
+
+.tasks-area__title.title__done {
+  border-left: 10px solid rgb(0, 245, 0);
+  border-radius: 7px;
+}
+
+.tasks__done .tasks__item {
+  border-left: 10px solid rgb(0, 245, 0);
+  border-radius: 7px;
+}
+
+.tasks-area__title.title__trashcan {
+  border-left: 10px solid rgb(245, 245, 0);
+  border-radius: 7px;
+}
+
+.tasks__trashcan .tasks__item {
+  border-left: 10px solid rgb(245, 245, 0);
+  border-radius: 7px;
+}

@@ -1,0 +1,33 @@
+.new-task {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.new-task__input {
+  flex: 1;
+  padding: .5em;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.new-task__button {
+  width: 100%;
+  max-width: 150px;
+  margin-left: 1em;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff;
+}
+
+.new-task__title {
+  margin-bottom: 1rem;
+}
